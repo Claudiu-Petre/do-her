@@ -7,18 +7,16 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
   box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  color: rgb(18, 17, 17);
-  background-image: linear-gradient(to top left, rgb(233, 238, 233), rgb(100, 97, 97));
-
-  /* background-color: #848275ef; */
+  color: rgb(12, 9, 9);
+  background-image: url(./moneyjar.jpg);
   height: 100vh;
-  padding: 2.5rem;
+  padding: 3rem;
 }
 
 nav {
@@ -26,7 +24,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  height: 8rem;
+  height: 10rem;
+  font-size: 20px;
 }
 
 .welcome {
@@ -35,6 +34,7 @@ nav {
   }
 
 .logo {
+
   height: 10rem;
   margin-top: 3rem;
 }
@@ -296,4 +296,7 @@ h2 {
 
 .timer {
   font-weight: 600;
+}
+footer{
+  font-weight: 800;
 }
